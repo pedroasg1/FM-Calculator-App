@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+/*Mobile Design*/
+@media screen and (max-width: 425px) {
+  .calc {
+    width: 90%;
+  }
+  .calc__title {
+    margin: 40px 20px;
+  }
+  .calc__numbers {
+    font-size: 40px;
+  }
+  .calc__background {
+    height: 430px;
+  }
+  .calc__buttons .calc__btn {
+    height: 57px;
+    font-size: 35px;
+  }
+  .calc__buttons .calc__btn--dif {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .calc {
+    width: 90%;
+  }
+  .calc__numbers {
+    font-size: 40px;
+  }
+  .calc__background {
+    height: 370px;
+  }
+  .calc__buttons .calc__btn {
+    height: 45px;
+    font-size: 30px;
+  }
+  .calc__buttons .calc__btn--dif {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .calc {
+    width: 90%;
+  }
+  .calc__numbers {
+    font-size: 35px;
+    padding: 37px 20px;
+  }
+  .calc__result {
+    height: 100px;
+  }
+  .calc__background {
+    height: 340px;
+  }
+  .calc__buttons .calc__btn {
+    height: 40px;
+    font-size: 25px;
+  }
+  .calc__buttons .calc__btn--dif {
+    font-size: 17px;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

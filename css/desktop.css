@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+/* Desktop Design */
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container button {
+  border: none;
+}
+
+.calc {
+  width: 570px;
+  height: 800px;
+}
+.calc__title {
+  color: hsl(0, 0%, 100%);
+  margin: 40px 30px;
+}
+
+.calc__result {
+  width: 90%;
+  height: 120px;
+  margin: 0 auto;
+  background-color: hsl(224, 36%, 15%);
+  text-align: right;
+  border-radius: 10px;
+}
+
+.calc__numbers {
+  font-size: 50px;
+  color: hsl(0, 0%, 100%);
+  padding: 45px 25px;
+}
+
+.calc__background {
+  background: hsl(223, 31%, 20%);
+  width: 90%;
+  height: 570px;
+  margin: 25px auto;
+  border-radius: 10px;
+}
+
+.calc__buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-self: center;
+  padding: 30px;
+  gap: 20px;
+}
+.calc__buttons .calc__btn {
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  width: 100%;
+  height: 85px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: hsl(221, 14%, 31%);
+  background: hsl(30, 25%, 89%);
+  border-radius: 10px;
+  box-shadow: 0 6px hsl(28, 16%, 65%);
+}
+.calc__buttons .calc__btn:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(221, 14%, 31%);
+}
+.calc__buttons .calc__btn__reset {
+  grid-column: 1/-3;
+  width: 100%;
+}
+.calc__buttons .calc__btn--dif {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 1px 6px hsl(224, 28%, 35%);
+}
+.calc__buttons .calc__btn--dif:hover {
+  background-color: hsl(226, 100%, 83%);
+  color: hsl(0, 0%, 100%);
+}
+.calc__buttons .calc__btn__igual {
+  grid-column: 3/-1;
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+  background: hsl(6, 63%, 50%);
+  box-shadow: 1px 6px hsl(6, 70%, 34%);
+}
+.calc__buttons .calc__btn__igual:hover {
+  background: tomato;
+  color: hsl(0, 0%, 100%);
+}
+
+/*# sourceMappingURL=desktop.css.map */
